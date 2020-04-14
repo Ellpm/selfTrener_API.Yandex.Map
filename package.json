@@ -1,0 +1,45 @@
+{
+  "name": "phase-2-assessment-party",
+  "version": "1.0.0",
+  "description": "## Введение #### Цель данного экзамена:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/phase-2-assessment-party.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/phase-2-assessment-party/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/phase-2-assessment-party#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "faker": "^4.1.0",
+    "hbs": "^4.1.0",
+    "http-errors": "^1.7.3",
+    "logger": "0.0.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.5",
+    "morgan": "^1.9.1",
+    "node-gyp": "^6.1.0",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "session-file-store": "^1.4.0"
+  }
+}
